@@ -11,6 +11,7 @@
 
 :root {
   --purple-text-color: #2A0080;
+  --pink-light: #ffe8f6
 }
 
 .App-logo {
@@ -22,6 +23,10 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+a {
+  color: var(--purple-text-color);
 }
 
 .App-header {
@@ -62,7 +67,11 @@
   font-family: 'UnifontExMono';
   text-align: left;
   padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 5px;
   display: flex;
+  border: solid;
+  border-color: var(--pink-light)
 }
 
 .nav-img {
@@ -86,6 +95,7 @@
 .content-box {
   font-family: 'UnifontExMono';
   text-align: left;
+  margin-left: 20px;
 }
 
 /* .Main-columns @keyframes App-logo-spin {

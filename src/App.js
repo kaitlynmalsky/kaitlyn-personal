@@ -1,6 +1,8 @@
 // import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
+import { AnimatedBackground } from 'animated-backgrounds';
+
 
 /*
 import images like this!
@@ -15,7 +17,11 @@ const homeContent =
 
 const aboutMeContent =
   <div>
-    about me content
+    If you're just here for my resume, you can download it <a href="">here</a>. (This isn't implemented yet).
+    <br /><br />
+    Currently I am working on a B.S. in computer science at the University of Massachusetts-Amherst.
+    <br /><br />
+    I'm currently searching for a job in software or web development.
   </div>
 
 const myProjectsContent =
@@ -25,7 +31,9 @@ const myProjectsContent =
 
 const linksContent =
   <div>
-    links content
+    GitHub: <a href="https://github.com/kaitlynmalsky">https://github.com/kaitlynmalsky</a><br />
+    LinkedIn: <a href="https://www.linkedin.com/in/kaitlyn-malsky-779a2429a/">https://www.linkedin.com/in/kaitlyn-malsky-779a2429a/</a><br />
+    email: <a href="mailto:kaitlynmalsky@gmail.com">kaitlynmalsky@gmail.com</a>
   </div>
 
 const funStuffContent =
@@ -40,6 +48,8 @@ function App() {
 
   return (
     <div className="App">
+      <AnimatedBackground animationName="gradientWave"
+        blendMode="screen" ></AnimatedBackground>
       <header className="App-header">
         <div>kaitlyn's site!</div>
       </header>
