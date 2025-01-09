@@ -10,7 +10,7 @@ import images like this!
 
 const homeContent =
   <div>
-    home content
+    Hi, I'm Kaitlyn!
   </div>
 
 const aboutMeContent =
